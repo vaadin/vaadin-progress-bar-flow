@@ -74,6 +74,7 @@ public class ProgressBarTest {
 
         new ProgressBar(42, 42);
 
+        // Nothing to assert here
     }
 
     @Test
@@ -83,6 +84,7 @@ public class ProgressBarTest {
 
         new ProgressBar(1.01, 1.0);
 
+        // Nothing to assert here
     }
 
     @Test
@@ -92,6 +94,7 @@ public class ProgressBarTest {
 
         new ProgressBar(0.0, 1.0, -0.01);
 
+        // Nothing to assert here
     }
 
     @Test
@@ -101,6 +104,7 @@ public class ProgressBarTest {
 
         new ProgressBar(0.0, 1.0, 1.01);
 
+        // Nothing to assert here
     }
 
     @Test
@@ -156,6 +160,7 @@ public class ProgressBarTest {
         ProgressBar progressBar = new ProgressBar(10, 100);
         progressBar.setValue(9);
 
+        // Nothing to assert here
     }
 
     @Test
@@ -166,5 +171,6 @@ public class ProgressBarTest {
         ProgressBar progressBar = new ProgressBar(10, 100);
         progressBar.setValue(101);
 
+        // Nothing to assert here
     }
 }
