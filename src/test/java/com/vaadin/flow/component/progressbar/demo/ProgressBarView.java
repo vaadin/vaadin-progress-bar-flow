@@ -17,11 +17,11 @@
 
 package com.vaadin.flow.component.progressbar.demo;
 
+import com.vaadin.flow.component.dependency.HtmlImport;
 import com.vaadin.flow.component.progressbar.ProgressBar;
 import com.vaadin.flow.demo.DemoView;
-import com.vaadin.router.Route;
+import com.vaadin.flow.router.Route;
 import com.vaadin.ui.button.Button;
-import com.vaadin.ui.common.HtmlImport;
 
 /**
  * View for {@link ProgressBar} demo.
@@ -65,8 +65,7 @@ public class ProgressBarView extends DemoView {
 
         progressBar.setId("custom-progress-bar");
         progressButton.setId("progress-button");
-        addCard("Progress bar with custom bounds", progressBar,
-                progressButton);
+        addCard("Progress bar with custom bounds", progressBar, progressButton);
     }
 
     private void createIndeterminateProgressBar() {
