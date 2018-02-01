@@ -28,7 +28,7 @@ public class ProgressBar extends GeneratedVaadinProgressBar<ProgressBar>
         implements HasSize {
 
     /**
-     * Constructs a new object with a scale of 0 to 1, and an initial value of
+     * Constructs a new object with a scale of 0 to 10, and an initial value of
      * 0.
      */
     public ProgressBar() {
@@ -91,7 +91,7 @@ public class ProgressBar extends GeneratedVaadinProgressBar<ProgressBar>
             throw new IllegalArgumentException(
                     "value must be between min and max");
         }
-        super.setValue((double) value);
+        super.setValue(value);
     }
 
     /**
@@ -110,7 +110,7 @@ public class ProgressBar extends GeneratedVaadinProgressBar<ProgressBar>
      *            the int value to set
      */
     public void setMax(int max) {
-        super.setMax((double) max);
+        super.setMax(max);
     }
 
     /**
@@ -129,7 +129,7 @@ public class ProgressBar extends GeneratedVaadinProgressBar<ProgressBar>
      *            the int value to set
      */
     public void setMin(int min) {
-        super.setMin((double) min);
+        super.setMin(min);
     }
 
     /**
