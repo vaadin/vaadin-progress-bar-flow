@@ -10,7 +10,7 @@
         <version>1.4-SNAPSHOT</version>
     </parent>
 
-    <artifactId>vaadin-progress-bar-flow-testbench</artifactId>
+    <artifactId>vaadin-progress-bar-testbench</artifactId>
     <packaging>jar</packaging>
 
     <name>Vaadin ProgressBar Testbench API</name>
