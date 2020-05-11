@@ -50,9 +50,8 @@ public class ProgressBarView extends DemoView {
         add(progressBar);
         // end-source-example
 
-        addVariantsDemo(() -> {
-            return progressBar;
-        }, GeneratedVaadinProgressBar::addThemeVariants,
+        addVariantsDemo(() -> progressBar,
+                GeneratedVaadinProgressBar::addThemeVariants,
                 GeneratedVaadinProgressBar::removeThemeVariants,
                 ProgressBarVariant::getVariantName,
                 ProgressBarVariant.LUMO_ERROR);
